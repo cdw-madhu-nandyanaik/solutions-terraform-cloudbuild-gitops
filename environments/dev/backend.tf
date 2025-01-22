@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-tfstate"
+    bucket = "build_logs_bucket66"
     prefix = "env/dev"
   }
 }
