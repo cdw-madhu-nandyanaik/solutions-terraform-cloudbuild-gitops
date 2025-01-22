@@ -20,9 +20,7 @@ steps:
       - |
           terraform init
 options:
-  logging: GCS_ONLY
-  logsBucket: 'gs://madnan-project-tfstate'
-
+  logging: CLOUD_LOGGING_ONLY  # Use GCS_ONLY or NONE based on your needs
 
 steps:
 - id: 'branch name'
