@@ -21,8 +21,6 @@ steps:
           terraform init
 options:
   logging: GCS_ONLY
-  logsBucket: 'gs://madnan-project-tfstate'
-
 
 steps:
 - id: 'branch name'
